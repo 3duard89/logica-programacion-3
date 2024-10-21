@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(29, 28, 28, 0.781);
+    color: white;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: rgb(49, 49, 49);
+    width: 24rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 20px;
+}
+
+.contenedor h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.contenedor .entradas{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.contenedor .entradas label{
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.contenedor .entradas input{
+    width: 50%;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border: none;
+}
+
+.contenedor button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px white;
+    align-self: center;
+    transition: 200ms ease;
+}
+
+.contenedor button:hover {
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transform: translateY(-3px);
+}
+
+.contenedor .resultadoS {
+    justify-content: center;
+    align-self: center;
+    margin-block: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px ridge white;
+    border-radius: 15px;
+    width: 90%;
+    min-height: 30px ;
+    color: white;
+}
+
+.contenedor .resultadoS p{
+    width: 90%;
+    background-color: transparent;
+}
